@@ -55,11 +55,6 @@ body {
 #custom-nav li:last-child > a {
   border-bottom-right-radius:7px;
 }
-.link-group::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 .nav-pills li a {
 	cursor: pointer;
 	text-decoration:none;
@@ -137,7 +132,7 @@ visibility: hidden;
 	border-color:white;
 	
 }
-#happy-song {
+#happy-song { 
 	border-left:10px; 
 	border-right:5px;
 	border-style: solid;
@@ -150,16 +145,16 @@ visibility: hidden;
     position: relative;
 }
 #map-div {
-position: relative;
+	position: relative;
 	border-right:10px; 
 	border-left:5px;
 	border-style: solid;	
 }
 #footer {
 	font-size:12px;
-	background: #dbdbdb; /* Old browsers */
-	background: -moz-linear-gradient(top, #dbdbdb 0%, #a3a3a3 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #dbdbdb 0%,#a3a3a3 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #dbdbdb 0%,#a3a3a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: #dbdbdb;
+	background: -moz-linear-gradient(top, #dbdbdb 0%, #a3a3a3 100%);
+	background: -webkit-linear-gradient(top, #dbdbdb 0%,#a3a3a3 100%);
+	background: linear-gradient(to bottom, #dbdbdb 0%,#a3a3a3 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#a3a3a3',GradientType=0 );
 }
