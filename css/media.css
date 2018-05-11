@@ -32,3 +32,9 @@
 		visibility: hidden;
 	}
 }
+@media only screen and (max-width: 476px) {
+	.nav-item a > .material-icons {font-size: 18px;}
+}
+@media only screen and (max-width: 438px) {
+	.nav-item a > .material-icons {font-size: 14px;}
+}
