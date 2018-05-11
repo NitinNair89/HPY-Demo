@@ -1,6 +1,6 @@
 html {
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 body {
         background-image: url('../img/dot.png'), -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 38%, rgba(197,255,143,1) 100%);
