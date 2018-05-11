@@ -1,13 +1,33 @@
 @media only screen and (max-width: 992px) {
-	.carousel-caption, .carousel-indicators {
+	.carousel-indicators {
 		visibility: hidden;
 	}
 	.nav-pills li a {
 		font-size:12px;
 	}
+	.carousel-caption p{
+		font-size:18px;
+	}
+	.carousel-caption h5{
+		font-size:20px;
+	}
 }
 @media only screen and (max-width: 767px) {
 	.nav-pills li a {
 		font-size:10px;
+	}
+	.carousel-caption p{
+		font-size:10px;
+	}
+	.carousel-caption h5{
+		font-size:14px;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		visibility: hidden;
+	}
+	.carousel-caption {
+		visibility: hidden;
 	}
 }
